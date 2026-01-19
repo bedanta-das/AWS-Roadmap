@@ -57,7 +57,7 @@ If I update a login feature:
 ## 1. IAM – Identity and Access Management
 
 <p align="center">
-  <img src="Icons/iam.png" width="30%" />
+  <img src="Icons/iam.png" width="20%" />
 </p>
 
 IAM controls who can do what in your AWS account.
@@ -83,7 +83,7 @@ If IAM is weak, everything else is at risk.
 ## 2. EC2 – Elastic Compute Cloud
 
 <p align="center">
-  <img src="Icons/ec2.png" width="30%" />
+  <img src="Icons/ec2.png" width="20%" />
 </p>
 
 EC2 is where you get virtual servers in the cloud.
@@ -108,7 +108,7 @@ If you understand EC2 deeply, a huge part of AWS compute becomes easier.
 ## 3. VPC – Virtual Private Cloud
 
 <p align="center">
-  <img src="Icons/vpc.png" width="30%" />
+  <img src="Icons/vpc.png" width="20%" />
 </p>
 
 VPC is your own private network inside AWS.
@@ -162,7 +162,7 @@ You help build systems that are both safe and practical.
 ## 5. Route 53 – DNS & Traffic Routing
 
 <p align="center">
-  <img src="Icons/route53.png" width="30%" />
+  <img src="Icons/route53.png" width="20%" />
 </p>
 
 Route 53 is AWS’s DNS service.
@@ -187,7 +187,7 @@ DNS issues can look like magic. Knowing Route 53 helps you de-mystify them.
 ## 6. S3 – Simple Storage Service
 
 <p align="center">
-  <img src="Icons/s3.png" width="30%" />
+  <img src="Icons/s3.png" width="20%" />
 </p>
 
 S3 is object storage for almost anything.
@@ -295,7 +295,7 @@ Even if your company uses GitHub Actions/GitLab etc., knowing these tools helps 
 ## 11. CodePipeline – CI/CD Automation
 
 <p align="center">
-  <img src="Icons/codepipeline.png" width="30%" />
+  <img src="Icons/codepipeline.png" width="20%" />
 </p>
 
 CodePipeline ties everything together.
@@ -321,7 +321,7 @@ This is where your “DevOps” part really shows: shipping code reliably and re
 ## 12. CloudWatch – Monitoring & Logging
 
 <p align="center">
-  <img src="Icons/cloudwatch.png" width="30%" />
+  <img src="Icons/cloudwatch.png" width="20%" />
 </p>
 
 CloudWatch is your eyes inside AWS.
@@ -348,7 +348,7 @@ You can’t operate production systems blindly. CloudWatch is the base of observ
 ## 13. Lambda – Serverless Functions
 
 <p align="center">
-  <img src="Icons/lambda.png" width="30%" />
+  <img src="Icons/lambda.png" width="20%" />
 </p> 
 
 Lambda lets you run code without managing servers.
@@ -372,6 +372,11 @@ As a DevOps engineer, you will:
 Lambda is heavily used in modern event-driven and microservice architectures.
 
 ## 14. CloudFront – Content Delivery Network
+
+<p align="center">
+  <img src="Icons/cloudfront.png" width="20%" />
+</p> 
+
 CloudFront speeds up content delivery across the world.
 
 It:
@@ -392,6 +397,11 @@ As a DevOps engineer, you will:
 CloudFront is essential if you care about performance for users in multiple regions.
 
 ## 15. ECR – Elastic Container Registry
+
+<p align="center">
+  <img src="Icons/ecr.png" width="20%" />
+</p>
+
 ECR is a private Docker image registry on AWS.
 
 You push images here, then run them on ECS or EKS.
@@ -409,6 +419,11 @@ As a DevOps engineer, you will:
 ECR is a core part of any container-based AWS setup.
 
 ## 16. ECS – Elastic Container Service
+
+<p align="center">
+  <img src="Icons/ecs.png" width="20%" />
+</p>
+
 ECS is AWS’s managed container orchestrator.
 
 You define:
@@ -448,6 +463,11 @@ As a DevOps engineer, you will:
 EKS is a big topic, but extremely valuable in modern DevOps roles.
 
 ## 18. RDS – Relational Database Service
+
+<p align="center">
+  <img src="Icons/rds.png" width="20%" />
+</p>
+
 RDS gives you managed relational databases like:
 
 MySQL, PostgreSQL, MariaDB, SQL Server, Oracle
@@ -471,6 +491,11 @@ As a DevOps engineer, you will:
 RDS removes a lot of DBA overhead and is a core part of many architectures.
 
 ## 19. Elastic Load Balancer (ALB / NLB)
+
+<p align="center">
+  <img src="Icons/elb.png" width="20%" />
+</p>
+
 Load balancers distribute traffic across multiple targets (EC2, ECS, Lambda, IPs).
 
 Types:
@@ -490,6 +515,11 @@ As a DevOps engineer, you will:
 Load balancers are critical for building reliable, scalable apps.
 
 ## 20. CloudTrail & Config
+
+<p align="center">
+  <img src="Icons/cloudtrail.png" width="20%" />
+</p>
+
 These services give you history and visibility of what changed.
 
 CloudTrail:
