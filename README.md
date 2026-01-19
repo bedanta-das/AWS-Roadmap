@@ -1,6 +1,7 @@
 # :cloud: AWS DevOps Roadmap – With Real-World Notes (2026)
 
-<img src="AWS.png">
+![AWS](Icons/AWS.png)
+
 
 DevOps is a set of practices that combines development and operations to deliver software faster, more reliably, and with fewer failures.
 Earlier, developers wrote code and handed it to operations. If something broke, they blamed each other. DevOps removes this gap by automating build, test, deployment, and monitoring.
