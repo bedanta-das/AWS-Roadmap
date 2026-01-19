@@ -563,6 +563,11 @@ As a DevOps engineer, you will:
 This is where a lot of real-world, high-impact work happens.
 
 ## :hourglass_flowing_sand: Hands-On Projects (VERY IMPORTANT FOR INTERVIEWS)
+
+<p align="center">
+  <img src="Icons/project.png" width="30%" />
+</p>
+
 Project 1 (Beginner)
 * Run on AWS EC2
 * Dockerize an app
