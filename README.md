@@ -1,8 +1,7 @@
 # :cloud: AWS DevOps Roadmap – With Real-World Notes (2026)
 
-![AWS](Icons/AWS.png align="center")
 <p align="center">
-  <img src="Icons/AWS.png" width="50%" />
+  <img src="Icons/AWS.png" width="30%" />
 </p>
 
 
