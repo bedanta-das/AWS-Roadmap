@@ -56,7 +56,9 @@ If I update a login feature:
 
 ## 1. IAM – Identity and Access Management
 
-<img src="iam.png" width="400">
+<p align="center">
+  <img src="Icons/iam.png" width="30%" />
+</p>
 
 IAM controls who can do what in your AWS account.
 
@@ -80,7 +82,9 @@ If IAM is weak, everything else is at risk.
 
 ## 2. EC2 – Elastic Compute Cloud
 
-<img src="ec2.png" width="400">
+<p align="center">
+  <img src="Icons/ec2.png" width="30%" />
+</p>
 
 EC2 is where you get virtual servers in the cloud.
 
@@ -102,6 +106,11 @@ As a DevOps engineer, you will:
 If you understand EC2 deeply, a huge part of AWS compute becomes easier.
 
 ## 3. VPC – Virtual Private Cloud
+
+<p align="center">
+  <img src="Icons/vpc.png" width="30%" />
+</p>
+
 VPC is your own private network inside AWS.
 
 It’s where you design:
@@ -151,6 +160,11 @@ As DevOps, you sit in the middle of:
 You help build systems that are both safe and practical.
 
 ## 5. Route 53 – DNS & Traffic Routing
+
+<p align="center">
+  <img src="Icons/route53.png" width="30%" />
+</p>
+
 Route 53 is AWS’s DNS service.
 
 What it helps with:
@@ -171,6 +185,11 @@ As a DevOps engineer, you will:
 DNS issues can look like magic. Knowing Route 53 helps you de-mystify them.
 
 ## 6. S3 – Simple Storage Service
+
+<p align="center">
+  <img src="Icons/s3.png" width="30%" />
+</p>
+
 S3 is object storage for almost anything.
 
 Real-world data stored in S3:
@@ -213,6 +232,7 @@ As a DevOps engineer, you will:
 This is a must-have skill to feel “comfortable” with AWS as an engineer, not just a console user.
 
 ## 8. CloudFormation – Infrastructure as Code (IaC)
+
 CloudFormation lets you define your infrastructure as YAML/JSON templates.
 
 You describe:
@@ -250,6 +270,18 @@ As a DevOps engineer, you will:
 Terraform is extremely valuable in modern DevOps teams and is often a key interview topic.
 
 ## 10. AWS Developer Tools – CodeCommit, CodeBuild, CodeDeploy
+
+<p align="center">
+  <img src="Icons/codecommit.png" width="30%" />
+</p>
+<p align="center">
+  <img src="Icons/codebuild.png" width="30%" />
+</p>
+<p align="center">
+  <img src="Icons/codedeploy.png" width="30%" />
+</p>
+
+
 These are AWS’s own CI/CD building blocks.
 * CodeCommit: Git repo (like GitHub, but on AWS).
 * CodeBuild: build server to compile, test, and package code.
@@ -268,6 +300,11 @@ As a DevOps engineer, you will:
 Even if your company uses GitHub Actions/GitLab etc., knowing these tools helps you understand AWS-native CI/CD.
 
 ## 11. CodePipeline – CI/CD Automation
+
+<p align="center">
+  <img src="Icons/codepipeline.png" width="30%" />
+</p>
+
 CodePipeline ties everything together.
 
 You define a pipeline like:
@@ -289,6 +326,11 @@ As a DevOps engineer, you will:
 This is where your “DevOps” part really shows: shipping code reliably and repeatedly.
 
 ## 12. CloudWatch – Monitoring & Logging
+
+<p align="center">
+  <img src="Icons/cloudwatch.png" width="30%" />
+</p>
+
 CloudWatch is your eyes inside AWS.
 
 It handles:
@@ -311,6 +353,11 @@ As a DevOps engineer, you will:
 You can’t operate production systems blindly. CloudWatch is the base of observability in AWS.
 
 ## 13. Lambda – Serverless Functions
+
+<p align="center">
+  <img src="Icons/lambda.png" width="30%" />
+</p> 
+
 Lambda lets you run code without managing servers.
 
 You just:
