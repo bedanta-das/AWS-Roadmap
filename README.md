@@ -36,7 +36,7 @@ Once this is clear, every other service feels less random and more logical.
 ## :cloud: DevOps lifecycle (Code → Production)
 
 <p align="center">
-  <img src="Icons/devops.jpg" width="30%" />
+  <img src="Icons/devops.jpg" width="60%" />
 </p>
 
 The DevOps lifecycle includes:
