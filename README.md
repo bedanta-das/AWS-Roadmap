@@ -1,4 +1,7 @@
 # :cloud: AWS DevOps Roadmap – With Real-World Notes (2026)
+
+<img src="AWS.png" width="400">
+
 DevOps is a set of practices that combines development and operations to deliver software faster, more reliably, and with fewer failures.
 Earlier, developers wrote code and handed it to operations. If something broke, they blamed each other. DevOps removes this gap by automating build, test, deployment, and monitoring.
 
@@ -29,6 +32,9 @@ knowing where data is stored and what happens when a region fails
 Once this is clear, every other service feels less random and more logical.
 
 ## :cloud: DevOps lifecycle (Code → Production)
+
+<img src="devops.jpg" width="400">
+
 The DevOps lifecycle includes:
 * Code – Developers write code and push to Git
 * Build – CI tool builds the application
@@ -45,6 +51,9 @@ If I update a login feature:
 * Grafana shows CPU and error metrics
 
 ## 1. IAM – Identity and Access Management
+
+<img src="iam.png" width="400">
+
 IAM controls who can do what in your AWS account.
 
 It’s the core of security in AWS:
@@ -66,6 +75,9 @@ As a DevOps engineer, you will:
 If IAM is weak, everything else is at risk.
 
 ## 2. EC2 – Elastic Compute Cloud
+
+<img src="ec2.png" width="400">
+
 EC2 is where you get virtual servers in the cloud.
 
 Think of EC2 as:
