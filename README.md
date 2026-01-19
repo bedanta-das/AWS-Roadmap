@@ -4,8 +4,6 @@
   <img src="Icons/AWS.png" width="30%" />
 </p>
 
-
-
 DevOps is a set of practices that combines development and operations to deliver software faster, more reliably, and with fewer failures.
 Earlier, developers wrote code and handed it to operations. If something broke, they blamed each other. DevOps removes this gap by automating build, test, deployment, and monitoring.
 
@@ -37,7 +35,9 @@ Once this is clear, every other service feels less random and more logical.
 
 ## :cloud: DevOps lifecycle (Code → Production)
 
-<img src="devops.jpg" width="400">
+<p align="center">
+  <img src="Icons/devops.jpg" width="30%" />
+</p>
 
 The DevOps lifecycle includes:
 * Code – Developers write code and push to Git
