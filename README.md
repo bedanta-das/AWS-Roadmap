@@ -44,7 +44,7 @@ If I update a login feature:
 * Kubernetes rolls out the new version
 * Grafana shows CPU and error metrics
 
-## IAM – Identity and Access Management
+## 1. IAM – Identity and Access Management
 IAM controls who can do what in your AWS account.
 
 It’s the core of security in AWS:
@@ -65,7 +65,7 @@ As a DevOps engineer, you will:
 * ensure production access is locked down
 If IAM is weak, everything else is at risk.
 
-## EC2 – Elastic Compute Cloud
+## 2. EC2 – Elastic Compute Cloud
 EC2 is where you get virtual servers in the cloud.
 
 Think of EC2 as:
@@ -84,4 +84,117 @@ As a DevOps engineer, you will:
 * set up Auto Scaling Groups for high availability and scaling.
 * monitor and troubleshoot CPU, memory, disk, and app performance.
 If you understand EC2 deeply, a huge part of AWS compute becomes easier.
+
+## 3. VPC – Virtual Private Cloud
+VPC is your own private network inside AWS.
+
+It’s where you design:
+* how your resources are connected
+* which are public-facing
+* which stay private and locked down
+
+Core pieces inside a VPC:
+* Subnets (public vs private)
+* Route tables
+* Internet Gateway and NAT Gateway
+* Security Groups and Network ACLs
+
+Real-world use cases:
+* Isolating environments like dev, staging, and prod.
+* Placing databases in private subnets and only exposing apps via load balancers.
+* Connecting on-prem data centers to AWS using VPN or Direct Connect.
+* Controlling which services can call each other.
+
+As a DevOps engineer, you will:
+* design network layouts for new workloads.
+* place EC2, RDS, EKS, ECS correctly within the VPC.
+* open and close ports using security groups.
+* debug connectivity issues like “can’t reach the database” or “service timeout.”
+* set up NAT for private resources that need internet updates but shouldn’t be exposed.
+Without VPC, AWS will always feel confusing. Once this clicks, everything starts to feel structured.
+
+## 4. AWS Security Best Practices
+Security is not one service, it’s a mindset plus a set of tools.
+
+Key areas to think about:
+* Access control (IAM, roles, MFA, SSO)
+* Data protection (encryption at rest and in transit)
+* Network security (VPC, security groups, NACLs)
+* Monitoring & logging (CloudTrail, CloudWatch, Config)
+* Secrets management (Secrets Manager, Parameter Store)
+
+Real-world use:
+* Enforcing MFA and role-based access in production accounts.
+* Encrypting S3, RDS, EBS volumes.
+* Using security scanners, guardrails, and policies.
+* Doing regular security reviews and checking CloudTrail logs.
+
+As DevOps, you sit in the middle of:
+* developers who want to move fast
+* security teams who want things locked down
+You help build systems that are both safe and practical.
+
+## 5. Route 53 – DNS & Traffic Routing
+Route 53 is AWS’s DNS service.
+
+What it helps with:
+* Mapping your domain (example.com) to AWS services like EC2, ALB, CloudFront, or S3.
+* Health checks for failover.
+* Advanced routing (weighted, latency-based, geo-based).
+
+Real-world usage:
+* Pointing app.yourdomain.com to your load balancer or CloudFront.
+* Blue/green or canary traffic shifting using weighted records.
+* Multi-region failover setups.
+
+As a DevOps engineer, you will:
+* manage records for application domains.
+* connect your DNS provider (or move to Route 53).
+* handle cutovers during migrations and deployments.
+* debug “site not loading” issues related to DNS.
+DNS issues can look like magic. Knowing Route 53 helps you de-mystify them.
+
+## S3 – Simple Storage Service
+S3 is object storage for almost anything.
+
+Real-world data stored in S3:
+* logs, backups, images, videos
+* static websites
+* deployment artifacts
+* data lakes for analytics
+
+Why it’s important:
+* It’s durable (designed for 11 9s).
+* It’s cheap for the amount of data it can hold.
+* It integrates with almost everything in AWS.
+
+As a DevOps engineer, you will:
+* store build artifacts from CI/CD pipelines.
+* configure S3 buckets for logging (ALB/CloudFront logs).
+* host static sites using S3 + CloudFront.
+* manage bucket policies, encryption, and lifecycle rules for cost savings.
+* set up cross-account or cross-region access when needed.
+S3 will appear in almost every project you touch.
+
+## AWS CLI & Automation
+The AWS CLI lets you talk to AWS from the terminal.
+
+Instead of clicking in the console, you can:
+* script tasks
+* automate things
+* integrate AWS with your tooling and workflows
+
+Real-world use:
+* writing shell scripts that create, update, or destroy resources.
+* pulling logs, metrics, and data quickly.
+* running deployments and maintenance tasks across multiple accounts/regions.
+
+As a DevOps engineer, you will:
+* configure multiple profiles for different environments.
+* use the CLI in CI/CD pipelines.
+* mix the CLI with Bash/Python scripts for one-off automation.
+* quickly debug resources when console is painful to use.
+This is a must-have skill to feel “comfortable” with AWS as an engineer, not just a console user.
+
+
 
