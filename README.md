@@ -271,15 +271,8 @@ Terraform is extremely valuable in modern DevOps teams and is often a key interv
 
 ## 10. AWS Developer Tools – CodeCommit, CodeBuild, CodeDeploy
 
-<p align="center">
-  <img src="Icons/codecommit.png" width="30%" />
-</p>
-<p align="center">
-  <img src="Icons/codebuild.png" width="30%" />
-</p>
-<p align="center">
-  <img src="Icons/codedeploy.png" width="30%" />
-</p>
+<img src="icons/codecommit.png" alt="Image 1" width="20"/> <img src="icons/codebuilt.png" alt="Image 2" width="20"/> <img src="iocns/codedeploy.png" alt="Image 3" width="20"/>
+
 
 
 These are AWS’s own CI/CD building blocks.
